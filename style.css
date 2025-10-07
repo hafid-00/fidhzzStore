@@ -1,14 +1,12 @@
-selektor {
-  properti: nilai:
-  properti-lain-lain:
 body {
   background-color: #FFFFE0; /* warna kuning cerah */
-font-family: Arial, sans serif; /*jenis huruf yang bersih dan mudah dibaca*/
-  color: #191970; /* Warnan teks utama (biru gelap
+font-family: Arial, sans-serif; /*jenis huruf yang bersih dan mudah dibaca*/
+  color: #191970; /* Warnan teks utama (biru gelap) */
 }
+
   .kartu-profil {
   width: 300px;
-  margin: 50px auto; /* 50px jarak atas/bawah auto mengarahkan kiri/kanan */
+  margin: 50px auto; /* 50px jarak atas/bawah, auto mengarahkan kiri/kanan */
   padding: 20px
   background-color: white;
   border-radius: 15px /*mmembuat sudut menjadi melengkung */
