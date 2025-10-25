@@ -1,22 +1,52 @@
 body {
-  background-color: #FFFFE0; /* warna kuning cerah */
-font-family: Arial, sans-serif; /* jenis huruf yang bersih dan mudah dibaca */
-  color: #191970; /* Warna teks utama (Biru Gelap) */
+  font-family: Arial, sans-serif;
+  background: #bde4f4;
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 
-  .kartu-profil {
-  width: 300px;
-  margin: 50px auto; /* 50px jarak atas/bawah, auto menengahkan kiri/kanan */
+header {
+  background: #0077b6;
+  color: white;
   padding: 20px;
-  background-color: white;
-  border-radius: 15px; /* membuat sudut menjadi melengkung */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Efek bayangan */
 }
-  .kartu-profil img {
-    width: 150px;
-    border-radius: 50%; /* Trik untuk membuat gambar persegi menjadi lingkaran sempurna */
-    }
-    .kartu-profil {
-      /* ... (kode dari slide sebelumnya) ... */
-      text-align: center; /* menambahkan semua teks di dalam kartu */
-    }
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  padding: 20px;
+}
+
+.product {
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.price {
+  color: #023e8a;
+  font-weight: bold;
+}
+
+button {
+  background: #0096c7;
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0077b6;
+}
+
+footer {
+  margin-top: 20px;
+  padding: 10px;
+  background: #0077b6;
+  color: white;
+}
